@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.card {
+    background: rgb(252, 1, 1);
+    color: rgb(0, 0, 0);
+    width: 25%;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.cards {
+    background: rgb(0, 0, 0);
+    color: rgb(248, 7, 7);
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.1rem;
+}
+sidebar a{
+    width: 100%;
+}
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
